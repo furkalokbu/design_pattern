@@ -43,3 +43,5 @@ objects.append(Adapter(british, speak=british.speak_english))
 
 for obj in objects:
     print("{} says '{}'\n".format(obj.name, obj.speak()))
+
+
